@@ -12,7 +12,7 @@ def appDeploy(jobname,ip,appname)
 }
 def seltest()
 {
-  sh 'java jar testing.jar'
+  sh 'java -jar testing.jar'
 }
 
 
